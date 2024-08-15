@@ -15,11 +15,11 @@ struct ContentView: View {
                 .padding()
             Text("Hello, Samuel! I think you can have a good day...")
             
-            Text("Hello Change")
+            Text("Hello Change Some Thing")
                 .font(.title)
                 .fontWeight(.semibold)
                 .padding()
-                .padding(.horizontal, 20)
+                .padding(.horizontal, 2)
         }
         .padding()
     }
