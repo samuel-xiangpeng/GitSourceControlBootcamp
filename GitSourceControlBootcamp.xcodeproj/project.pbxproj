@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D31A62C92C6E399D00985A78 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D31A62C42C6E399D00985A78 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D31A62AA2C6E2C4700985A78 /* GitSourceControlBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSourceControlBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31A62C42C6E399D00985A78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		D31A62A12C6E2C4700985A78 = {
 			isa = PBXGroup;
 			children = (
+				D31A62C42C6E399D00985A78 /* README.md */,
 				D31A62AC2C6E2C4700985A78 /* GitSourceControlBootcamp */,
 				D31A62AB2C6E2C4700985A78 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31A62C92C6E399D00985A78 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
