@@ -25,6 +25,12 @@ struct ContentView: View {
     }
 }
 
+struct TableCustomView: View {
+    var body: some View {
+        Text("Table")
+    }
+}
+
 #Preview {
     ContentView()
 }
