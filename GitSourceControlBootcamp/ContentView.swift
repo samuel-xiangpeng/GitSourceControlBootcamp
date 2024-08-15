@@ -14,6 +14,12 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
                 .padding()
             Text("Hello, Samuel! I think you can have a good day...")
+            
+            Text("Hello Change")
+                .font(.title)
+                .fontWeight(.semibold)
+                .padding()
+                .padding(.horizontal, 20)
         }
         .padding()
     }
