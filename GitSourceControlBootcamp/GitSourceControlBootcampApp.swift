@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct GitSourceControlBootcampApp: App {
+    
+    
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
