@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "heart.fill")
                 .foregroundStyle(.tint)
-                .padding(.top, 20)
+                .padding()
             Text("Hello, Samuel! I think you can have a good day...")
         }
         .padding()
