@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct GitSourceControlBootcampApp: App {
     
-    
+    /* 注释信息 */
     @Environment(\.colorScheme) var colorScheme
     
     var body: some Scene {
