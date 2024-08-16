@@ -20,6 +20,16 @@ struct GitSourceControlBootcampApp: App {
         
         Settings {
             // 设置窗口
+            
+            List {
+                
+                ForEach(0..<4, id: \.self) { index in
+                    
+                    Text("\(index)")
+                    
+                }
+                
+            }
         }
     }
 }
