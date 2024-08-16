@@ -17,5 +17,9 @@ struct GitSourceControlBootcampApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        Settings {
+            // 设置窗口
+        }
     }
 }
