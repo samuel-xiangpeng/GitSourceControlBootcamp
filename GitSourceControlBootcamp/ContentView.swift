@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+
+/*
+ 
+ 主要内容区域
+ 
+ */
 struct ContentView: View {
     var body: some View {
         VStack {
